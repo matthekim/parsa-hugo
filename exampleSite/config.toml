@@ -6,10 +6,6 @@ summaryLength = "10"
 theme = "parsa-hugo"
 title = "Parsa Hugo | Personal Blog Template"
 [[menu.main]]
-name = "About"
-url = "about"
-weight = 3
-[[menu.main]]
 name = "Homepage 2"
 parent = "Homepage"
 url = "homepage/home-2"
@@ -22,6 +18,10 @@ weight = 1
 [[menu.main]]
 hasChildren = true
 name = "Homepage"
+weight = 3
+[[menu.main]]
+name = "About"
+url = "about"
 weight = 2
 [[menu.main]]
 name = "Contact"
