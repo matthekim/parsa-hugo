@@ -1,4 +1,4 @@
-baseurl = "http://matthekim.github.io/parsa-hugo"
+baseurl = "https://matthekim.github.io/parsa-hugo"
 googleAnalytics = ""
 languageCode = "en-us"
 paginate = 6
