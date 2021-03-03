@@ -1,21 +1,11 @@
 baseurl = "https://matthekim.github.io/nextventures-hugo-forestry"
 googleAnalytics = ""
-DefaultContentLanguage = "en"
-[languages]
-  [languages.en]
-    contentDir = "content/en"
-    title = "My New Hugo i18n Site"
-    languageName = "English"
-    weight = 1
-  [languages.gr]
-    contentDir = "content/gr"
-    title = "Η Νεα μου Ιστιοσελιδα"
-    languageName = "Greek"
-    weight = 2
-defaultContentLanguageInSubdir = true
+languageCode = "en-us"
 paginate = 6
 summaryLength = "10"
 theme = "parsa-hugo"
+title = "Parsa Hugo | Personal Blog Template"
+
 [[menu.main]]
 name = "Homepage 2"
 parent = "Homepage"
@@ -101,3 +91,4 @@ url = "#"
 [[params.social]]
 icon = "ti-github"
 url = "#"
+
