@@ -90,17 +90,3 @@ url = "#"
 [[params.social]]
 icon = "ti-github"
 url = "#"
-
-DefaultContentLanguage = "en"
-[languages]
-  [languages.en]
-    contentDir = "content/en"
-    title = "My New Hugo i18n Site"
-    languageName = "English"
-    weight = 1
-  [languages.gr]
-    contentDir = "content/gr"
-    title = "Η Νεα μου Ιστιοσελιδα"
-    languageName = "Greek"
-    weight = 2
-defaultContentLanguageInSubdir = true
