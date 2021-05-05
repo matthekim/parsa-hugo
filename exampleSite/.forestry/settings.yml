@@ -10,7 +10,7 @@ sections:
   path: exampleSite/content/en
   label: Who
   create: documents
-  match: "/*"
+  match: "*"
   templates:
   - post
 - type: heading
