@@ -4,7 +4,14 @@
   <a id="who"></a>
 		<div class="main-item ">
 			<div class="main-text">
-        <h4>{{.Title}}</h4>
+       
+        {{ range (where site.Pages "Type" "home-who")}}
+        {{ range $paginator.Pages }}
+            {{range .Params.Categories}}{{. | humanize}}{{end}}
+            {{.Title}}
+            <p>{{.Summary}}</p>
+        {{ end }}
+        {{ end }}
 ------------------
 				<p>Hi, we’re <strong>Next Ventures</strong>, let’s do big things good.</p>
 	
