@@ -8,7 +8,7 @@ sections:
   label: ENGLISH
 - type: directory
   path: exampleSite/content/en
-  label: Who (top)
+  label: Who
   create: documents
   match: "/*"
   templates:
