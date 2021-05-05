@@ -6,6 +6,13 @@ webhook_url:
 sections:
 - type: heading
   label: NL
+- type: directory
+  path: exampleSite/content/nl
+  label: Wie
+  create: all
+  match: "*"
+  templates:
+  - post
 - type: heading
   label: ENGLISH
 - type: directory
