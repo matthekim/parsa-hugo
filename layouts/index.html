@@ -4,22 +4,17 @@
   <a id="who"></a>
 		<div class="main-item ">
 			<div class="main-text">
-       
-        {{ range first 1 ( where site.Pages "Type" "home-who") }}
+        {{ if or (eq .Section "en")  }}
+          {{ range first 1 ( where site.Pages "Type" "home-who") }}
             {{.Title}}
             {{.Content }}
-        {{ end }}
-
-------------------
-				<p>Hi, we’re <strong>Next Ventures</strong>, let’s do big things good.</p>
-	
-				<p>We start, grow, and invest in fantastic (internet) businesses. We help ambitious people to turn ideas into companies.
-				We co-create tangible business results while sharing risks &amp; rewards.</p>
-	
-	
-				<p><strong>Concepts. Creative. Connections. Capital</strong><br>
-				We combine strategy, venture consulting and building, brand positioning, go-to-market and investments to support the groundwork for efficient and risk-controlled growth in return for participation. </p>
-			
+          {{ end }}	
+        {{ else }}	
+          {{ range first 1 ( where site.Pages "Type" "home-nl") }}
+            {{.Title}}
+            {{.Content }}
+          {{ end }}	
+        {{ end }}			
       
       </div>
 			<div class="grid items-6">
