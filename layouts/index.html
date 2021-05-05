@@ -5,16 +5,11 @@
 		<div class="main-item ">
 			<div class="main-text">
        
-        {{ if or (eq .Section "home-who") (eq .Section "posts") (eq .Section "blog") (eq .Section "blogs") (eq .Section "news") (eq .Section "categories") (eq .Section "tags") }}
-        <h2 class="mb-4">{{.Title }}</h2>
-        {{with .Params.image}}<img src="{{. | absURL }}" alt="{{site.Params.author}}" class="img-fluid w-100 mb-4">{{end}}
-        {{ .Content }}
-      </div>
-    </div>
-  </div>
-</section>
-
+        {{ range first 1 ( where site.Pages "Type" "home-who") }}
+            {{.Title}}
+            {{.Summary }}
         {{ end }}
+
 ------------------
 				<p>Hi, we’re <strong>Next Ventures</strong>, let’s do big things good.</p>
 	
