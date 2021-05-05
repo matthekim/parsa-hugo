@@ -1,5 +1,62 @@
 {{ define "main" }}
-meh?<br>
+
+
+<main>
+  <a id="who"></a>
+		<div class="main-item ">
+			<div class="main-text">
+        {{ if or (eq .Section "en")  }}
+          {{ range first 1 ( where site.Pages "Type" "home-who") }}
+            {{.Title}}
+            {{.Content }}
+          {{ end }}	
+        {{ end }}			
+      
+      </div>
+			<div class="grid items-6">
+				<div class="grid-item grid-item-center">
+					<img src="{{ `img/founded.svg` | absURL }}" alt="" class="items-6-icon" /><br>
+					<span class="title-grey">Founded</span><br>
+					2014
+					<!--<div class="items-6-title">2014</div>-->
+				</div>
+				<div class="grid-item grid-item-center">
+					<img src="{{ `img/location.svg` | absURL }}" alt="" class="items-6-icon" /><br>
+					<span class="title-grey">Location</span><br>
+						Antwerp
+						<!--<div class="items-6-title">Antwerp</div>-->
+				</div>
+				<div class="grid-item grid-item-center">
+					<img src="{{ `img/fund.svg` | absURL }}" alt="" class="items-6-icon" /><br>
+					<span class="title-grey">Fund Size</span><br>
+					Private
+						<!--<div class="items-6-title">Private</div>-->
+				</div>
+				
+				<div class="grid-item grid-item-center">
+						<img src="{{ `img/team.svg` | absURL }}" alt="" class="items-6-icon" /><br>
+						<span class="title-grey">Team</span><br>
+						4
+						<!--<div class="items-6-title">4</div>-->
+				</div>
+				<div class="grid-item grid-item-center">
+						<img src="{{ `img/area.svg` | absURL }}" alt="" class="items-6-icon" /><br>
+						<span class="title-grey">Area Focus</span><br>
+						Benelux
+						<!--<div class="items-6-title"></div>-->
+				</div>
+				<div class="grid-item grid-item-center">
+						<img src="{{ `img/stage.svg` | absURL }}" alt="" class="items-6-icon" /><br>
+						<span class="title-grey">Stage Focus</span><br>
+						Pre-seed
+						<!--<div class="items-6-title">Pre-seed</div>-->
+				</div>
+			</div>
+		</div>
+		<div class="hr"></div>
+</main>
+
+
 <!-- page-title -->
 <section class="section bg-secondary">
   <div class="container">
