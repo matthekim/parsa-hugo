@@ -42,8 +42,8 @@ home = "Home"
 layout = "1"
 logo = "images/logo.png"
 mobile = "+90 000 333 22"
-preloader = true
-search = true
+preloader = false
+search = false
 [params.cookies]
 enable = true
 expire_days = 2
