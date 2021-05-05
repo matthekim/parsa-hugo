@@ -2,7 +2,6 @@
 categories = []
 date = ""
 description = "(nl)Hi, we’re Next Ventures, let’s do big things good.  We start, grow, and invest in fantastic (internet) businesses. We help ambitious people to turn ideas into companies. We co-create tangible business results while sharing risks & rewards."
-draft = true
 image = ""
 tags = []
 title = ""
