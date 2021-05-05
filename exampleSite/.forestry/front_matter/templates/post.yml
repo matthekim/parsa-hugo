@@ -25,3 +25,4 @@ fields:
   label: type
 pages:
 - exampleSite/content/en/who.md
+- exampleSite/content/nl/wie.md
