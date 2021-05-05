@@ -1,5 +1,5 @@
 ---
-title: Who (top)
+title: ''
 date: 2019-05-14T14:46:10.000+06:00
 description: Hi, we’re Next Ventures, let’s do big things good.  We start, grow, and
   invest in fantastic (internet) businesses. We help ambitious people to turn ideas
