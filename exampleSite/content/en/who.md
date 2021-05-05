@@ -5,7 +5,7 @@ description = "Hi, we’re Next Ventures, let’s do big things good.  We start,
 image = ""
 tags = []
 title = ""
-type = ""
+type = "home-who"
 
 +++
 Hi, we’re **Next Ventures**, let’s do big things good.
