@@ -4,13 +4,13 @@
   <a id="who"></a>
 		<div class="main-item ">
 			<div class="main-text">
-        {{ if or (eq .Section "nl")  }}
-          {{ range first 1 ( where site.Pages "Type" "home-wie") }}
+        {{ if or (eq .Section "en")  }}
+          {{ range first 1 ( where site.Pages "Type" "home-who") }}
             {{.Title}}
             {{.Content }}
           {{ end }}	
         {{ else }}	
-          {{ range first 1 ( where site.Pages "Type" "home-who") }}
+          {{ range first 1 ( where site.Pages "Type" "home-wie") }}
             {{.Title}}
             {{.Content }}
           {{ end }}	
