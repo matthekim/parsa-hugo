@@ -5,6 +5,8 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: heading
+  label: NL
+- type: heading
   label: ENGLISH
 - type: directory
   path: exampleSite/content/en
@@ -14,7 +16,7 @@ sections:
   templates:
   - post
 - type: heading
-  label: NEDERLANDS
+  label: NEDERLANDSZZZ
 - type: directory
   path: exampleSite/content/blog
   label: Post
