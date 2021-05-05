@@ -25,3 +25,4 @@ fields:
   label: type
 pages:
 - exampleSite/content/en/first-english-post.md
+- exampleSite/content/en/who-top.md
