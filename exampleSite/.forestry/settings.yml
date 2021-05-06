@@ -17,14 +17,11 @@ sections:
   label: ENGLISH
 - type: directory
   path: exampleSite/content/en
-  label: Who
+  label: English docs
   create: all
   match: "*"
   templates:
   - post
-- type: document
-  path: exampleSite.content/en/companies.md
-  label: Companies
 - type: heading
   label: NEDERLANDSZZZ
 - type: directory
