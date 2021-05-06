@@ -1,8 +1,9 @@
 {{ define "main" }}
 
 <main>
-  <a class="anchor" id="who"></a>
+  
 		<div class="main-item ">
+      <a class="anchor" id="who"></a>
 			<div class="main-text">
         {{ if or (eq .Section "nl")  }}
           {{ range first 1 ( where site.Pages "Type" "home-wie") }}
@@ -59,8 +60,9 @@
 		</div>
 		<div class="hr"></div>
 
-    <a class="anchor" id="companies"></a>
+    
 		<div class="main-item main-alternate">
+      <a class="anchor" id="companies"></a>
 			<div class="main-text">
         {{ if or (eq .Section "nl")  }}
           {{ range first 1 ( where site.Pages "Type" "home-bedrijf") }}
@@ -139,8 +141,9 @@
 		</div>
 		<div class="hr"></div>
 
-    <a class="anchor" id="interested"></a>
+    
 		<div class="main-item ">
+      <a class="anchor" id="interested"></a>
 			<div class="main-text">
         {{ if or (eq .Section "nl")  }}
         {{ range first 1 ( where site.Pages "Type" "home-interesse") }}
@@ -412,8 +415,9 @@
 			</div>
 		</div>
 
-    <a class="anchor" id="about"></a>
+    
 		<div class="main-item ">
+      <a class="anchor" id="about"></a>
 			<div class="main-text">
 				{{ if or (eq .Section "nl")  }}
         {{ range first 1 ( where site.Pages "Type" "home-over") }}
@@ -430,8 +434,9 @@
 			</div>
 		</div>
 
-    <a class="anchor" id="faq"></a>
+    
 		<div class="main-item main-alternate">
+      <a class="anchor" id="faq"></a>
 			<div class="main-text">
 				<h2>FAQ</h2>
 			</div>
