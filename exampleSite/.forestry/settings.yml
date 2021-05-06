@@ -22,6 +22,10 @@ sections:
   match: "*"
   templates:
   - post
+- type: document
+  path: exampleSite.content/en/companies.md
+  label: Companies
+  match: "**/*"
 - type: heading
   label: NEDERLANDSZZZ
 - type: directory
