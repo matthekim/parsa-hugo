@@ -429,7 +429,8 @@
 			<div class="main-text">
 				<h2>FAQ</h2>
 			</div>
-      {{ range (where site.Pages "Type" "faq")}}
+      {{ range (where .Pages "Type" "faq")}}
+      
 			<div class="main-text faq">
 				<div class="faq-title"><div class="dropdown"></div>{{.Title}}</div>
 				<div class="faq-text">
