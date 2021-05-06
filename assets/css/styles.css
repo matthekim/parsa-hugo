@@ -467,24 +467,29 @@ footer {
 		grid-template-columns: repeat(2, 1fr);
 	}
 	.items-3 {
-		grid-column-gap: 50px;
+		grid-column-gap: 20px;
 		grid-template-columns: repeat(2, 1fr);
 		grid-template-rows: repeat(3, 1fr);
 	}
 	.items-3-more {
 		grid-template-columns: repeat(1, 1fr);
 	}
-
+	.text-link {
+		text-align:center;
+	}
 	.link {
 		width: 100%;
 	}
 	.main-text, .grid {
-		width: 80vw;
+		width: 90vw;
 	}
 	.grid-item-intro, .grid-item-intro h3, .grid-item-intro p {
 		text-align: center;
 	}
 	.items-3-more {
 		width: 40vw;
+	}
+	.items-3-icon {
+		float:none;
 	}
 }
