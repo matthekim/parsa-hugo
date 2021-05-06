@@ -474,7 +474,7 @@ footer {
 	.items-3-more {
 		grid-template-columns: repeat(1, 1fr);
 	}
-	.text-link {
+	.textlink {
 		text-align:center;
 	}
 	.link {
