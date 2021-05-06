@@ -1,14 +1,12 @@
 +++
 categories = []
 date = ""
-description = "Hi, we’re Next Ventures, let’s do big things good.  We start, grow, and invest in fantastic (internet) businesses. We help ambitious people to turn ideas into companies. We co-create tangible business results while sharing risks & rewards."
+description = ""
+draft = true
 image = ""
 tags = []
-title = "Companies"
-type = "home-companies"
+title = "Resources"
+type = "home-resources"
 
 +++
-Our portfolio is limited, selective, passionate, … as we want to partner with personalities who are authentic founders. Of Course we love ideas (we are all dreamers) but we care more about conversations & converting ideas into an actual healthy business instead of hypergrowth.
-
-Sectors we’ve invested in:  
-SaaS, RegTech, B2B, Direct to Consumer, Food, Entertainment.
+To get you started in building the future, here's a couple of resources we've found useful over the past few years in startups and growth. Most can be freely found on the internet and gathered the most valuable content into one place with the hope that it will benefit more people than just the few who already know about it.
