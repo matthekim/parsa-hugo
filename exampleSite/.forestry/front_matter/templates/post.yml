@@ -24,6 +24,7 @@ fields:
   name: type
   label: type
 pages:
+- exampleSite/content/en/about.md
 - exampleSite/content/en/faq/faq-1.md
 - exampleSite/content/en/faq/faq-2.md
 - exampleSite/content/en/who.md
