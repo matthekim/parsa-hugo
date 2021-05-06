@@ -17,6 +17,11 @@
   <link rel="shortcut icon" href="{{ `images/favicon.png` | absURL }} " type="image/x-icon">
   <link rel="icon" href="{{ `images/favicon.png` | absURL }} " type="image/x-icon">
   
+
+  <meta property="og:title" content="{{ site.Title }}" />
+  <meta property="og:site_name" content="{{ site.Title }}" /> 
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://nextventures.be" />
   {{ with .Params.image }}
   <meta property="og:image" content="{{ . | absURL }}" />
   {{ end }}
