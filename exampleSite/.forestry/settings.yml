@@ -17,13 +17,6 @@ sections:
   label: ENGLISH
 - type: directory
   path: exampleSite/content/en
-  label: Who
-  create: documents
-  match: "*"
-  templates:
-  - post
-- type: directory
-  path: exampleSite/content/en
   label: Company
   create: all
   match: "*"
