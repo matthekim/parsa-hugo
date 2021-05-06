@@ -492,4 +492,8 @@ footer {
 	.items-3-icon {
 		float:none;
 	}
+	.items-3-info-small {
+		text-align:left;
+		padding-left:20px;
+	}
 }
