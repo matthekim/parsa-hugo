@@ -17,7 +17,7 @@ sections:
   label: ENGLISH
 - type: directory
   path: exampleSite/content/en
-  label: Companies
+  label: Who
   create: all
   match: "*"
   templates:
