@@ -30,7 +30,6 @@ weight = 1
 [outputs]
 home = ["HTML", "RSS", "JSON"]
 [params]
-privacydoc = "/images/invoice_2021-04-15_210407219.pdf"
 address = ""
 author = "Johan De Keulenaer"
 author_image = "images/next-ventures.svg"
@@ -44,6 +43,7 @@ layout = "1"
 logo = "images/next-ventures.svg"
 mobile = ""
 preloader = false
+privacydoc = ""
 search = false
 [params.cookies]
 enable = true
