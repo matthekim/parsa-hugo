@@ -73,9 +73,6 @@
             {{.Content }}
           {{ end }}	
         {{ end }}
-
-		
-
 			</div>
 			<div class="grid items-3 grid-gap50">
 				<div class="grid-item ">
@@ -135,6 +132,23 @@
 			</div>
 		</div>
 		<div class="hr"></div>
+
+    <a id="interested"></a>
+		<div class="main-item ">
+			<div class="main-text">
+        {{ if or (eq .Section "nl")  }}
+        {{ range first 1 ( where site.Pages "Type" "home-interesse") }}
+        <h2>{{.Title}}</h2>
+          {{.Content }}
+        {{ end }}	
+      {{ else }}	
+        {{ range first 1 ( where site.Pages "Type" "home-interested") }}
+          <h2>{{.Title}}</h2>
+          {{.Content }}
+        {{ end }}	
+      {{ end }}
+			</div>
+		</div>
 
 </main>
 {{ end }}
