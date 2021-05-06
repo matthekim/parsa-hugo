@@ -406,6 +406,39 @@
 			</div>
 		</div>
 
+    <a id="about"></a>
+		<div class="main-item ">
+			<div class="main-text">
+				{{ if or (eq .Section "nl")  }}
+        {{ range first 1 ( where site.Pages "Type" "home-over") }}
+        <h2>{{.Title}}</h2>
+          {{.Content }}
+        {{ end }}	
+      {{ else }}	
+        {{ range first 1 ( where site.Pages "Type" "home-about") }}
+          <h2>{{.Title}}</h2>
+          {{.Content }}
+        {{ end }}	
+      {{ end }}
+
+			</div>
+		</div>
+
+    <a id="faq"></a>
+		<div class="main-item main-alternate">
+			<div class="main-text">
+				<h2>FAQ</h2>
+			</div>
+      {{ range (where site.RegularPages "Type" "faq")}}
+			<div class="main-text faq">
+				<div class="faq-title"><div class="dropdown"></div>{{.Title}}</div>
+				<div class="faq-text">
+					<p>{{.Content}}</p>
+				</div>
+			</div>
+      {{end}}
+
+		</div>
 
 </main>
 {{ end }}
