@@ -1,8 +1,8 @@
 baseurl = "https://nextventures-test.netlify.app/"
 googleAnalytics = ""
-privacydoc = ""
 languageCode = "en-us"
 paginate = 6
+privacydoc = "/images/invoice_2021-04-15_210407219.pdf"
 summaryLength = "10"
 theme = "parsa-hugo"
 title = "Next Ventures"
