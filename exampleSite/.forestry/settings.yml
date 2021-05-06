@@ -22,13 +22,6 @@ sections:
   match: "*"
   templates:
   - post
-- type: directory
-  path: exampleSite/content/en
-  label: Companies
-  create: all
-  match: "*"
-  templates:
-  - post
 - type: heading
   label: NEDERLANDSZZZ
 - type: directory
