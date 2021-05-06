@@ -1,4 +1,4 @@
-baseurl = "https://matthekim.github.io/nextventures-hugo-forestry"
+baseurl = "https://nextventures-test.netlify.app/"
 googleAnalytics = ""
 languageCode = "en-us"
 paginate = 6
@@ -30,18 +30,18 @@ weight = 1
 [outputs]
 home = ["HTML", "RSS", "JSON"]
 [params]
-address = "6 rip carl Avenue CA 90733"
-author = "John Doe"
-author_image = "images/banner-img.png"
-bio = "I’m a Freelance Interactive Art Director based in France. Focusing across branding and identity, digital and print."
+address = ""
+author = "Johan De Keulenaer"
+author_image = "images/next-ventures.svg"
+bio = "Hi, we’re Next Ventures, let’s do big things good.\n\nWe start, grow, and invest in fantastic (internet) businesses. We help ambitious people to turn ideas into companies. We co-create tangible business results while sharing risks & rewards."
 contact_form_action = "#"
-copyright = "Copyright &copy; 2020 a theme by [themefisher.com](themefisher.com)"
-description = "This is meta description"
-email = "exmaple@ymail.com"
+copyright = "&copy; 2021"
+description = "Hi, we’re Next Ventures, let’s do big things good.  We start, grow, and invest in fantastic (internet) businesses. We help ambitious people to turn ideas into companies. We co-create tangible business results while sharing risks & rewards."
+email = "info@nextventures.be"
 home = "Home"
 layout = "1"
-logo = "images/logo.png"
-mobile = "+90 000 333 22"
+logo = "images/next-ventures.svg"
+mobile = ""
 preloader = false
 search = false
 [params.cookies]
