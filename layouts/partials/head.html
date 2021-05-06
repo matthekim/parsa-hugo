@@ -22,6 +22,7 @@
   <meta property="og:site_name" content="{{ site.Title }}" /> 
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://nextventures.be" />
+  <meta property="og:image" content="{{ .Params.logo | absURL }}" />
   {{ with .Params.image }}
   <meta property="og:image" content="{{ . | absURL }}" />
   {{ end }}
