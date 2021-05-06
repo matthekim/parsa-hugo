@@ -29,15 +29,8 @@ sections:
   match: "*"
   templates:
   - post
-- type: directory
-  path: exampleSite/content/seo
-  label: SEO
-  create: all
-  match: "*"
-  templates:
-  - post
 - type: heading
-  label: NEDERLANDSZZZ
+  label: General
 - type: directory
   path: exampleSite/content/blog
   label: Post
