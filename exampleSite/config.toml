@@ -1,5 +1,6 @@
 baseurl = "https://nextventures-test.netlify.app/"
 googleAnalytics = ""
+privacydoc = ""
 languageCode = "en-us"
 paginate = 6
 summaryLength = "10"
