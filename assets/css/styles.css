@@ -78,7 +78,7 @@ header {
 	background-image: url('../img/header.png');
 	background-repeat: repeat-x;
 	background-attachment: fixed;
-	background-position: right -26px;
+	background-position: 101% -26px;
 }
 .bgImage-right {
 	position: absolute;
@@ -89,7 +89,7 @@ header {
 	background-image: url('../img/header.png');
 	background-repeat: repeat-x;
 	background-attachment: fixed;
-	background-position: left -26px;
+	background-position: -5px -26px;
 }
 .logo {
 	width: auto;
@@ -215,9 +215,7 @@ main {
 .grid-item-center {
 	text-align: center;
 }
-.grid-item p {
-	
-}
+
 .items-6 {
 	grid-template-rows: 1fr;
 	grid-column-gap: 0px;
@@ -456,7 +454,6 @@ footer {
 	-o-transition: color, background 500ms ease-out;
 	transition: color, background 500ms ease-out;
 }
-.cookieClose:hover { /*background: var(--accent); color: var(--bgcolor); font-weight: bold;*/ }
 
 @media only screen and (max-width: 500px) {
 	/*.cookie { flex-direction: column; width: 90vw; bottom: 5vw; left: 5vw; }
@@ -477,15 +474,7 @@ footer {
 	.items-3-more {
 		grid-template-columns: repeat(1, 1fr);
 	}
-	.grid-item-intro * {
-		/*text-align: center;*/
-	}
-	.textlink {
-		/*text-align: center;*/
-	}
-	element {
 
-}
 	.link {
 		width: 100%;
 	}
