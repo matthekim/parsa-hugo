@@ -45,7 +45,7 @@ h3 {
 header {
 	position: fixed;
 	left: 0;
-	top: 0px;
+	top: 20px;
 	width: 100vw;
 	z-index: 9999;
 	text-align: center;
@@ -89,7 +89,7 @@ header {
 	background-image: url('../img/header.png');
 	background-repeat: repeat-x;
 	background-attachment: fixed;
-	background-position: -5px -26px;
+	background-position: -10px -26px;
 }
 .logo {
 	width: auto;
@@ -182,7 +182,7 @@ header {
 main {
 	position: relative;
 	width: 100vw;
-	padding-top: 300px;
+	padding-top: 120px;
 }
 .main-item {
 	position: relative;
