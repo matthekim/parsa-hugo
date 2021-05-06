@@ -97,6 +97,9 @@ header {
 	font-weight: 600;
 	display:none;
 }
+.anchor {
+	margin-top:-240px;
+}
 .textlink a, .textlink a:active, .textlink a:visited {
 	text-decoration:none;
 	color: var(--main-text-color);
