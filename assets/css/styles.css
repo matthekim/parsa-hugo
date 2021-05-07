@@ -198,6 +198,11 @@ main {
 	width: 800px;
 	/*max-width: 650px;*/
 }
+.faq-textholder {
+	margin: auto;
+	width: 800px;
+	/*max-width: 650px;*/
+}
 .grid {
 	display: grid;
 	margin: auto;
@@ -482,7 +487,7 @@ footer {
 	.main-text, .grid {
 		width: 90vw;
 	}
-	.faq-text {
+	.faq-texthholder {
 		width: 80vw;
 	}
 	.grid-item-intro, .grid-item-intro h3, .grid-item-intro p {
