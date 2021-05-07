@@ -505,7 +505,8 @@ footer {
 	}
 	.footer-logo {
 		position:relative;
-		right:20px;
+		right:0px;
+		left:0px;
 	}
 	.logo-padding {
 		margin-left: 0px;
