@@ -333,7 +333,7 @@ ul li::before {
 	text-transform: none;
 }
 .grid-item-intro h3, .grid-item-intro h3 b  {
-	font-weight:800;
+	font-weight:800 !important;
 }
 .faq {
 	padding-top: 10px;
