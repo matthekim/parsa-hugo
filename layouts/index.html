@@ -444,7 +444,7 @@
 				<h2>FAQ</h2>
 			</div>
       {{ range first 100 ( where site.Pages "Type" "home-faq") }}
-			<div class="main-text faq">
+			<div class="faq-text faq">
 				<div class="faq-title"><div class="dropdown"></div>{{.Title}}</div>
 				<div class="faq-text">
 					<p>{{.Content}}</p>
