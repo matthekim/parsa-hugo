@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap');
 
 :root {
   --main-bg-color:  #f0f4f0;
@@ -333,7 +333,7 @@ ul li::before {
 	text-transform: none;
 }
 .grid-item-intro h3 {
-	font-weight:800 !important;
+	font-weight:700 !important;
 }
 .faq {
 	padding-top: 10px;
