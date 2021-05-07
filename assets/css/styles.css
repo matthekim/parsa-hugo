@@ -503,4 +503,11 @@ footer {
 		text-align:left;
 		padding-left:20px;
 	}
+	.footer-logo {
+		position:relative;
+		right:20px;
+	}
+	.logo-padding {
+		margin-left: 0px;
+	}
 }
