@@ -332,7 +332,7 @@ ul li::before {
 	margin-top: 0;
 	text-transform: none;
 }
-.grid-item-intro h3, .grid-item-intro h3 b  {
+.grid-item-intro h3 {
 	font-weight:800 !important;
 }
 .faq {
