@@ -29,6 +29,8 @@
 
   <meta property="og:title" content="{{ site.Title }}" />
   <meta property="og:site_name" content="{{ site.Title }}" /> 
+  <meta property="og:description" content="{{  with site.Params.description }}" />
+  <meta property="og:keywords" content="{{  with site.Params.keywords }}" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://nextventures.be" />
   <meta property="og:image" content="{{ .Params.logo | absURL }}" />
