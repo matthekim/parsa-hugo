@@ -298,6 +298,9 @@ main {
 	height: 42px;
 	float: left;
 }
+.logoHolder {
+	float:left;height:100px;padding-right:10px;
+}
 .items-3-title {
 	font-size: 12px;
 	text-transform: none;
