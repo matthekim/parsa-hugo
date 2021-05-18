@@ -51,8 +51,11 @@ h4 {
 	margin-bottom:0;
 }
 .lowercase {
+	position:relative;
 	text-transform:lowercase;
 	padding-bottom:6px;
+	height: 40px;
+	line-height:1.4em;
 }
 header {
 	position: fixed;
