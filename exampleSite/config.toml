@@ -4,7 +4,7 @@ languageCode = "en-us"
 paginate = 6
 summaryLength = "10"
 theme = "parsa-hugo"
-title = "Next Ventures"
+title = "Next Ventures | We start, grow, and invest in fantastic (internet) businesses."
 [[menu.main]]
 name = "Homepage 2"
 parent = "Homepage"
