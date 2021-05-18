@@ -138,6 +138,9 @@ header {
 	color: var(--main-hover-color);
 	border-bottom:2px solid var(--main-hover-color);
 }
+.noUnderline {
+	text-decoration:none;
+}
 .menu {
 	position:fixed;
 	left: 0;
