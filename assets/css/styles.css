@@ -54,7 +54,6 @@ h4 {
 	position:relative;
 	text-transform:lowercase;
 	padding-bottom:6px;
-	height: 20px;
 	line-height:1.4em;
 }
 header {
@@ -486,6 +485,9 @@ footer {
 	.cookieLeft { width: 90vw; padding: 5vw; text-align: center; }*/
 }
 @media (max-width: 960px) {
+	.lowercase {
+		height: 20px;
+	}
 	.items-6 {
 		grid-row-gap: 30px;
 		grid-column-gap: 50px;
