@@ -140,6 +140,7 @@ header {
 }
 .noUnderline {
 	text-decoration:none;
+	border-bottom:0px;
 }
 .menu {
 	position:fixed;
