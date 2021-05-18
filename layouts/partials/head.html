@@ -38,7 +38,6 @@
   {{ with .Params.image }}
   <meta property="og:image" content="{{ . | absURL }}" />
   {{ end }}
-  {{ template "_internal/opengraph.html" . }}
   {{ template "_internal/google_analytics_async.html" . }}
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-8PJS8D4BB7"></script>
 <script>
