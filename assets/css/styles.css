@@ -48,6 +48,7 @@ h4 {
 	font-size: 24px;
 }
 .margin-bottom-zero {
+	margin-top:0;
 	margin-bottom:0;
 }
 .lowercase {
@@ -300,7 +301,6 @@ main {
 .items-3-title {
 	font-size: 14px;
 	text-transform: none;
-	float: left;
 	padding-left:10px;
 	color: var(--main-link-color);
 	line-height: 2.1em;
