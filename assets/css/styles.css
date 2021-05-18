@@ -503,7 +503,7 @@ footer {
 	}
 	.items-3 {
 		grid-column-gap: 20px;
-		grid-template-columns: repeat(2, 1fr);
+		grid-template-columns: repeat(1, 1fr);
 		grid-template-rows: repeat(3, 1fr);
 	}
 	.items-3-more {
