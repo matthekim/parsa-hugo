@@ -486,7 +486,7 @@ footer {
 }
 @media (max-width: 960px) {
 	.lowercase {
-		height: 20px;
+		height: 30px;
 	}
 	.items-6 {
 		grid-row-gap: 30px;
