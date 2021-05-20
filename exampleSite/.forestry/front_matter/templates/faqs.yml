@@ -10,3 +10,5 @@ fields:
   config:
     min: 
     max: 
+pages:
+- exampleSite/content/en/testfaq/What-does-Next-Ventures-provide-aside-from-funding.md
