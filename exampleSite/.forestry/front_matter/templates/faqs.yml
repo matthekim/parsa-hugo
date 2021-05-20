@@ -9,12 +9,3 @@ fields:
     min: 
     max: 
   label: FAQ TITLE
-- name: faq_text
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: FAQ TEXT
