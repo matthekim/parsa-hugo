@@ -1,4 +1,20 @@
 ---
 label: FAQS
 hide_body: true
-fields: []
+fields:
+- name: faq_title
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: FAQ TITLE
+- name: faq_text
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: FAQ TEXT
