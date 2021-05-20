@@ -2,17 +2,11 @@
 label: FAQQER
 hide_body: false
 fields:
-- name: title_faq
-  type: text
+- name: faq_z
+  type: blocks
+  label: FAQ Z
+  template_types:
+  - faq-item
   config:
-    required: false
-  label: title faq
-- name: text
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: text
+    min: 
+    max: 
