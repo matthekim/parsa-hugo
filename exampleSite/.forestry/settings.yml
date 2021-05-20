@@ -29,6 +29,13 @@ sections:
   match: "*"
   templates:
   - post
+- type: directory
+  path: exampleSite/content/en/testfaq
+  label: TESTFAQ
+  create: documents
+  match: "*"
+  templates:
+  - faqs
 - type: heading
   label: General
 - type: document
