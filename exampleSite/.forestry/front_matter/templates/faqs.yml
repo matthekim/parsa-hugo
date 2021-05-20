@@ -2,10 +2,13 @@
 label: FAQS
 hide_body: true
 fields:
-- name: faqs
-  type: include
-  config: {}
-  template: faq-item
-  label: FAQS
+- name: faqq
+  type: blocks
+  label: faqq
+  template_types:
+  - faq-item
+  config:
+    min: 
+    max: 
 pages:
 - exampleSite/content/en/testfaq/test-1.md
