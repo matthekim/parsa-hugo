@@ -2,8 +2,8 @@
 label: FAQS
 hide_body: true
 fields:
-- name: jjj
+- name: faqs
   type: include
   config: {}
-  template: faqs
-  label: jjj
+  template: faq-item
+  label: FAQS
