@@ -7,3 +7,5 @@ fields:
   config: {}
   template: faq-item
   label: FAQS
+pages:
+- exampleSite/content/en/testfaq/test-1.md
