@@ -35,7 +35,7 @@ sections:
   create: documents
   match: "*"
   templates:
-  - faqs
+  - faqqer
 - type: heading
   label: General
 - type: document
