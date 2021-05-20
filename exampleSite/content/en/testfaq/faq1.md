@@ -1,13 +1,16 @@
 +++
 draft = true
 [[faq_z]]
-answer = ""
+answer = "sdsdsds"
 template = "faq-item"
-title = ""
+title = "faq1"
 [[faq_z]]
-answer = ""
+answer = "sdsds"
 template = "faq-item"
-title = ""
+title = "Faq2"
+[[faq_z]]
+answer = "sdsdsd"
+template = "faq-item"
+title = "faq3"
 
 +++
-ffjffk
