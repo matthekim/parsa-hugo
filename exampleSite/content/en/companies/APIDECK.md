@@ -1,5 +1,4 @@
 +++
-draft = true
 [[the_company_items]]
 company_logo_svg = "/images/api-deck.svg"
 company_name = "APIDECK"
