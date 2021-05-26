@@ -79,7 +79,7 @@
 			<div class="grid items-3 grid-gap50">
 				{{ with .Site.GetPage "/companies/all-companies" }}
 				{{ $.Param "the_company_items.company_name" }}
-				{{ range first 5 (where .Data.Pages "Section" "post").ByTitle }}
+				{{ range first 100 }}
 				w<br>
 				{{end}}
       			{{end}}
