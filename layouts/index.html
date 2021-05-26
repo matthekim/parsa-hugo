@@ -77,8 +77,8 @@
         {{ end }}
 			</div>
 			<div class="grid items-3 grid-gap50">
-
-				{{ {{ .File.UniqueID  "all-companies"}} }}
+				{{ with .Site.GetPage "/all-companies" }}
+				{{ $.Param "the_company_items.company_name" }}
 				<!--
 			<div class="grid-item ">
 				<div class="logoHolder">	
