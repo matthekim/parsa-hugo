@@ -11,5 +11,11 @@ company_name = "BOYANDTEDDY"
 company_text = "**Dog collars for fashionable pet parents  \nRaising: 50k Open Positions: no**"
 company_website = "http://boyandteddy.dog/"
 template = "company-item"
+[[the_company_items]]
+company_logo_svg = "/images/complianceboard.svg"
+company_name = "COMPLIANCEBOARD"
+company_text = "**Privacy Compliance for SaaS companies.  \nRaising: 250k Open Positions:** [**yes**](https://www.complianceboard.io/)"
+company_website = "https://complianceboard.io/"
+template = "company-item"
 
 +++
