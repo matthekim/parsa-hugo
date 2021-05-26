@@ -17,5 +17,11 @@ company_name = "COMPLIANCEBOARD"
 company_text = "**Privacy Compliance for SaaS companies.  \nRaising: 250k Open Positions:** [**yes**](https://www.complianceboard.io/)"
 company_website = "https://complianceboard.io/"
 template = "company-item"
+[[the_company_items]]
+company_logo_svg = "/images/culasarsa.svg"
+company_name = "CULASARSA"
+company_text = "**Online mercato making cooking sexy  \nRaising: 25k Open Positions:** [**yes**](https://www.culasarsa.com/)"
+company_website = "https://www.culasarsa.com/"
+template = "company-item"
 
 +++
