@@ -77,7 +77,7 @@
         {{ end }}
 			</div>
 			<div class="grid items-3 grid-gap50">
-				{{ range .Site.Companies.all-companies }}
+				{{ for block in page.company-item }}
 				w<br>
 				{{end}}
 				
