@@ -7,3 +7,5 @@ fields:
   config: {}
   template: company-item
   label: The Company Items
+pages:
+- exampleSite/content/en/companies/All-companies.md
