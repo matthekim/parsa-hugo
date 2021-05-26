@@ -77,7 +77,7 @@
         {{ end }}
 			</div>
 			<div class="grid items-3 grid-gap50">
-				{{ range .Site.Data.all-companies }}
+				{{ range .Site.GetPage "/companies/all-companies" }}
 				w<br>
 				{{end}}
 				
