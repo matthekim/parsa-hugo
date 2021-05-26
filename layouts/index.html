@@ -77,21 +77,37 @@
         {{ end }}
 			</div>
 			<div class="grid items-3 grid-gap50">
-				<div class="grid-item ">
 
+				{{ {{ .Render "all-companies"}} }}
+					{{.Title}}<br>
+				<!--
+			<div class="grid-item ">
+				<div class="logoHolder">	
+				<a href="http://www.apideck.com/" target="_blank" class="noUnderline">
+					<img src="{{ `img/api-deck.svg` | absURL }}" alt="" class="items-3-icon" />
+				</a>
+				</div>
+				<div class="items-3-title">
+					<h2 class="margin-bottom-zero">APIDECK</h2>
+					API Integration (re)defined<br>
+					Raising: just did &nbsp;&nbsp;Open Positions:  <a href="https://www.apideck.com/jobs" target="_blank">yes</a>
+				</div>
+			</div>-->
+      			{{end}}
+
+				<div class="grid-item ">
 					<div class="logoHolder">	
 					<a href="http://www.apideck.com/" target="_blank" class="noUnderline">
 						<img src="{{ `img/api-deck.svg` | absURL }}" alt="" class="items-3-icon" />
 					</a>
 					</div>
-
-						<div class="items-3-title">
-							<h2 class="margin-bottom-zero">APIDECK</h2>
-							API Integration (re)defined<br>
-							Raising: just did &nbsp;&nbsp;Open Positions:  <a href="https://www.apideck.com/jobs" target="_blank">yes</a>
-						</div>
-						
+					<div class="items-3-title">
+						<h2 class="margin-bottom-zero">APIDECK</h2>
+						API Integration (re)defined<br>
+						Raising: just did &nbsp;&nbsp;Open Positions:  <a href="https://www.apideck.com/jobs" target="_blank">yes</a>
+					</div>
 				</div>
+
 			
 				<div class="grid-item ">
             
