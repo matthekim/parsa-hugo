@@ -1,4 +1,9 @@
 ---
 label: Companies Holder
 hide_body: true
-fields: []
+fields:
+- name: the_company_items
+  type: include
+  config: {}
+  template: company-item
+  label: The Company Items
