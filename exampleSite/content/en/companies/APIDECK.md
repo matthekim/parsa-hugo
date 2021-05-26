@@ -23,5 +23,11 @@ company_name = "CULASARSA"
 company_text = "**Online mercato making cooking sexy  \nRaising: 25k Open Positions:** [**yes**](https://www.culasarsa.com/)"
 company_website = "https://www.culasarsa.com/"
 template = "company-item"
+[[the_company_items]]
+company_logo_svg = "/images/mast-agency.svg"
+company_name = "MAST AGENCY"
+company_text = "**Storytelling and branding agency  \nRaising: no Open Positions:** [**yes**](https://www.mast-agency.be/)"
+company_website = "https://www.mast-agency.be/"
+template = "company-item"
 
 +++
