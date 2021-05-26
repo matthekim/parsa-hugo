@@ -30,6 +30,13 @@ sections:
   templates:
   - post
 - type: directory
+  path: exampleSite/content/en/companies
+  label: Companies
+  create: all
+  match: "*"
+  templates:
+  - companies-holder
+- type: directory
   path: exampleSite/content/en/testfaq
   label: TESTFAQ
   create: documents
