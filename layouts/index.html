@@ -79,19 +79,9 @@
 			<div class="grid items-3 grid-gap50">
 				{{ with .Site.GetPage "/companies/all-companies" }}
 				{{ $.Param "the_company_items.company_name" }}
-				<!--
-			<div class="grid-item ">
-				<div class="logoHolder">	
-				<a href="http://www.apideck.com/" target="_blank" class="noUnderline">
-					<img src="{{ `img/api-deck.svg` | absURL }}" alt="" class="items-3-icon" />
-				</a>
-				</div>
-				<div class="items-3-title">
-					<h2 class="margin-bottom-zero">APIDECK</h2>
-					API Integration (re)defined<br>
-					Raising: just did &nbsp;&nbsp;Open Positions:  <a href="https://www.apideck.com/jobs" target="_blank">yes</a>
-				</div>
-			</div>-->
+				{{ range first 5 (where .Data.Pages "Section" "post").ByTitle }}
+				w<br>
+				{{end}}
       			{{end}}
 
 				<div class="grid-item ">
