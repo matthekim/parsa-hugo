@@ -29,5 +29,11 @@ company_name = "MAST AGENCY"
 company_text = "**Storytelling and branding agency  \nRaising: no Open Positions:** [**yes**](https://www.mast-agency.be/)"
 company_website = "https://www.mast-agency.be/"
 template = "company-item"
+[[the_company_items]]
+company_logo_svg = "/images/wakinglife.svg"
+company_name = "WAKINGLIFE"
+company_text = "**Music & Art Festival Portugal  \nRaising: no Open Positions: no**"
+company_website = "https://wakinglife.pt/"
+template = "company-item"
 
 +++
