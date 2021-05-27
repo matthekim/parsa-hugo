@@ -77,10 +77,13 @@
         {{ end }}
 			</div>
 			<div class="grid items-3 grid-gap50">
-				{{ range where .Site.Pages "Params.the_company_items" }}
+				
+				{{ range where .Pages "Section" "companies" }}
+				{{ range .Params.the_company_items }}
 				x<br>
 				{{ if eq "company-item" .template }}
 				w<br>
+				{{end}}
 				{{end}}
 				{{end}}
 				
