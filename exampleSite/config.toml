@@ -1,4 +1,4 @@
-baseurl = "https://nextventures-test.netlify.app/"
+baseurl = "https://nextventures.netlify.app/"
 googleAnalytics = ""
 languageCode = "en-us"
 paginate = 6
