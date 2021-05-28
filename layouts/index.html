@@ -77,21 +77,11 @@
         {{ end }}
 			</div>
 			<div class="grid items-3 grid-gap50">
-				
-				{{ range where .Site.RegularPages "Section" "companies" }}
-				{{ range .Params.the_company_items }}
-				x<br>
-				{{ if eq "company-item" .template }}
-				w<br>
-				{{end}}
-				{{end}}
-				{{end}}
-				
-				{{ with .Site.GetPage "/companies/all-companies" }}
-				a<br>
-				
-      			{{end}}
 
+				{{ range .Params.the_company_items }}
+					<h3>test</h3>
+				{{ end }}
+			
 				<div class="grid-item ">
 					<div class="logoHolder">	
 					<a href="http://www.apideck.com/" target="_blank" class="noUnderline">
