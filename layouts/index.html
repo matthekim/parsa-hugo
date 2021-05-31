@@ -77,10 +77,8 @@
         {{ end }}
 			</div>
 			<div class="grid items-3 grid-gap50">
-				{{ range where .Site.Pages "Section" "companies" }}
-				{{ range .Params.the_company_items }}
+				{{ range .Params.all-companies }}
 					<h3>test</h3>
-				{{ end }}
 				{{ end }}
 			
 				<div class="grid-item ">
