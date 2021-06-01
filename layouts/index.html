@@ -78,12 +78,14 @@
 			</div>
 			<div class="grid items-3 grid-gap50">
 				{{ range .Site.Pages }}
-				{{ range .Params.the_company_items }}
-					{{ if eq "company-item" .template }}
-					
-  					{{ end }}
-					
-				{{ end }}
+					{{ range .Params.the_company_items }}
+						{{ if eq "company-item" .template }}
+						<div style="display:none;">
+							{{ .Params.company_name }}
+							
+						</div>
+  						{{ end }}
+					{{ end }}
 				{{ end }}
 			
 				<div class="grid-item ">
