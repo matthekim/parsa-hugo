@@ -9,8 +9,8 @@ answer = "We look for motivated founding team, an understandable mvp with some e
 template = "faq-item"
 title = "What are key ingredients for us to start a collaboration?"
 [[faq_z]]
-answer = "sdsdsd"
+answer = "Besides investment, we provide human capital co-creation, expansive networks, and resources like technology recommendations and methodology that make building startup ventures easier and faster."
 template = "faq-item"
-title = "faq3"
+title = "What does Next Ventures provide aside from funding?"
 
 +++
