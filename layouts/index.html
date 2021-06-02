@@ -402,38 +402,18 @@
 			<div class="main-text">
 				<h2>FAQ</h2>
 			</div>
-      {{ range first 100 ( where site.Pages "Type" "home-faq") }}
-			<div class="faq-textholder faq">
-				<div class="faq-title"><div class="dropdown"></div>{{.Title}}</div>
-				<div class="faq-text">
-					<p>{{.Content}}</p>
-				</div>
-			</div>
-      {{end}}
+
 
 	  {{ range .Site.Pages }}
 	  {{ range .Params.faq_item }}
 		  {{ if eq "faq-item" .template }}
-		  <div style="display:none">
 		  	<div class="faq-textholder faq">
 				<div class="faq-title"><div class="dropdown"></div>{{.title}}</div>
 				<div class="faq-text">
 					<p>{{ .answer }}</p>
 				</div>
 			</div>
-		</div>
 
-			  <div class="grid-item ">
-				  <div class="logoHolder">	
-				  <a href="{{ .company_website }}" target="_blank" class="noUnderline">
-					  <img src="{{ .company_logo_svg | absURL }}" alt="" class="items-3-icon" />
-				  </a>
-				  </div>
-				  <div class="items-3-title">
-					  <h2 class="margin-bottom-zero">{{ .company_name }}</h2>
-					  {{ .company_text | markdownify }}
-				  </div>
-			  </div>
 			{{ end }}
 	  {{ end }}
   {{ end }}
