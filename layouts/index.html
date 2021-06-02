@@ -80,7 +80,6 @@
 				{{ range .Site.Pages }}
 					{{ range .Params.the_company_items }}
 						{{ if eq "company-item" .template }}
-							<div style="display:none;">
 							<div class="grid-item ">
 								<div class="logoHolder">	
 								<a href="{{ .company_website }}" target="_blank" class="noUnderline">
@@ -92,92 +91,10 @@
 									{{ .company_text | markdownify }}
 								</div>
 							</div>
-						</div>
   						{{ end }}
 					{{ end }}
 				{{ end }}
 			
-				<div class="grid-item ">
-					<div class="logoHolder">	
-					<a href="http://www.apideck.com/" target="_blank" class="noUnderline">
-						<img src="{{ `img/api-deck.svg` | absURL }}" alt="" class="items-3-icon" />
-					</a>
-					</div>
-					<div class="items-3-title">
-						<h2 class="margin-bottom-zero">APIDECK</h2>
-						API Integration (re)defined<br>
-						Raising: just did &nbsp;&nbsp;Open Positions:  <a href="https://www.apideck.com/jobs" target="_blank">yes</a>
-					</div>
-				</div>
-
-			
-				<div class="grid-item ">
-            
-					<div class="logoHolder">	
-					<a href="http://boyandteddy.dog/" target="_blank" class="noUnderline">
-						<img src="{{ `img/boy-and-teddy.svg` | absURL }}" alt="" class="items-3-icon" />
-					</a>
-					</div>
-						<div class="items-3-title">
-							<h2 class="margin-bottom-zero">BOYANDTEDDY</h2>
-							Dog collars for fashionable pet parents<br>
-							Raising: 50k &nbsp;&nbsp;Open Positions: no
-						</div>
-						
-				</div>
-				<div class="grid-item ">
-					<div class="logoHolder">
-					<a href="https://complianceboard.io" target="_blank" class="noUnderline">
-						<img src="{{ `img/complianceboard.svg` | absURL }}" alt="" class="items-3-icon" />
-					</a>
-					</div>
-						<div class="items-3-title">
-							<h2 class="margin-bottom-zero">COMPLIANCEBOARD</h2>
-							Privacy Compliance for SaaS companies.<br>
-							Raising: 250k &nbsp;&nbsp;Open Positions:  <a href="https://angel.co/company/complianceboard/jobs" target="_blank">yes</a>
-						</div>
-						
-					
-				</div>
-				<div class="grid-item ">
-					<div class="logoHolder">
-					<a href="https://www.culasarsa.com" target="_blank" class="noUnderline">
-						<img src="{{ `img/culasarsa.svg` | absURL }}" alt="" class="items-3-icon" />
-					</a>
-					</div>
-						<div class="items-3-title">
-							<h2 class="margin-bottom-zero">CULASARSA</h2>
-							Online mercato making cooking sexy<br>
-							Raising: 25k &nbsp;&nbsp;Open Positions:  <a href="https://www.linkedin.com/company/culasarsa/jobs/" target="_blank">yes</a>
-						</div>
-					
-					
-				</div>
-				<div class="grid-item ">
-					<div class="logoHolder">
-            
-					<a href="https://www.mast-agency.be" target="_blank" class="noUnderline">
-						<img src="{{ `img/mast-agency.svg` | absURL }}" alt="" class="items-3-icon" />
-					</a>
-				</div>
-						<div class="items-3-title">
-							<h2 class="margin-bottom-zero">MAST AGENCY</h2>
-							Storytelling and branding agency<br>
-							Raising: no &nbsp;&nbsp;Open Positions:  <a href="https://www.mast-agency.be/jobs/" target="_blank">yes</a>
-						</div>					
-				</div>
-				<div class="grid-item ">
-					<div class="logoHolder">
-						<a href="https://wakinglife.pt" target="_blank" class="noUnderline">
-							<img src="{{ `img/wakinglife.svg` | absURL }}" alt="" class="items-3-icon" />
-						</a>
-					</div>
-					<div class="items-3-title">
-						<h2 class="margin-bottom-zero">WAKINGLIFE</h2>
-						Music &amp; Art Festival Portugal<br>
-						Raising: no &nbsp;&nbsp;Open Positions: no
-					</div>
-				</div>
 
 			</div>
 		</div>
