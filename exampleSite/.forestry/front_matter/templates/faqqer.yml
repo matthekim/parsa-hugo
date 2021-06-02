@@ -2,9 +2,9 @@
 label: FAQQER
 hide_body: false
 fields:
-- name: faq_z
+- name: faq_item
   type: blocks
-  label: FAQ Z
+  label: FAQ item
   template_types:
   - faq-item
   config:
