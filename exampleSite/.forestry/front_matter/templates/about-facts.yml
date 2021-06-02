@@ -5,7 +5,8 @@ fields:
 - name: facts_item
   type: blocks
   label: facts item
-  template_types: []
+  template_types:
+  - fact-item
   config:
     min: 
     max: 
