@@ -80,7 +80,7 @@
 				{{ range .Site.Pages }}
 					{{ range .Params.the_company_items }}
 						{{ if eq "company-item" .template }}
-							
+							<div style="disp;lay:none;">
 							<div class="grid-item ">
 								<div class="logoHolder">	
 								<a href="{{ .company_website }}" target="_blank" class="noUnderline">
@@ -89,7 +89,7 @@
 								</div>
 								<div class="items-3-title">
 									<h2 class="margin-bottom-zero">{{ .company_name }}</h2>
-									{{% .company_text %}}
+									{{ .company_text }}
 								</div>
 							</div>
 						</div>
