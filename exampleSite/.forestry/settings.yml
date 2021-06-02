@@ -22,6 +22,10 @@ sections:
   match: "*"
   templates:
   - post
+- type: document
+  path: exampleSite/content/en/facts
+  label: About Facts top
+  match: "**/*"
 - type: directory
   path: exampleSite/content/en/faq
   label: FAQ-old
