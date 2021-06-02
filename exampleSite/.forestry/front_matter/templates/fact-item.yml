@@ -1,4 +1,19 @@
 ---
 label: FACT ITEM
 hide_body: true
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: title
+- name: value
+  type: text
+  config:
+    required: false
+  label: value
+- name: icon
+  type: file
+  config:
+    maxSize: 64
+  label: icon
