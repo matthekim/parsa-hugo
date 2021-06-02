@@ -37,7 +37,7 @@ sections:
   templates:
   - companies-holder
 - type: directory
-  path: exampleSite/content/en/testfaq
+  path: exampleSite/content/en/faqs
   label: FAQ
   create: documents
   match: "*"
