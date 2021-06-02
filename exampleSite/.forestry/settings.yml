@@ -24,7 +24,7 @@ sections:
   - post
 - type: directory
   path: exampleSite/content/en/faq
-  label: FAQ
+  label: FAQ-old
   create: all
   match: "*"
   templates:
