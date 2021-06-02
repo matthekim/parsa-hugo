@@ -1,4 +1,11 @@
 ---
 label: About Facts
 hide_body: true
-fields: []
+fields:
+- name: facts_item
+  type: blocks
+  label: facts item
+  template_types: []
+  config:
+    min: 
+    max: 
