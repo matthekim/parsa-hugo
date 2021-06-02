@@ -412,7 +412,7 @@
       {{end}}
 
 	  {{ range .Site.Pages }}
-	  {{ range .Params.faq_items }}
+	  {{ range .Params.faq_item }}
 		  {{ if eq "faq-item" .template }}
 		  <div style="display:none">
 		  	<div class="faq-textholder faq">
