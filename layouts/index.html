@@ -413,7 +413,7 @@
 
 	  {{ range .Site.Pages }}
 	  {{ range .Params.faq_items }}
-		  {{ if eq "company-item" .template }}
+		  {{ if eq "faq-item" .template }}
 		  <div style="display:none">
 		  	<div class="faq-textholder faq">
 				<div class="faq-title"><div class="dropdown"></div>{{.title}}</div>
@@ -422,7 +422,7 @@
 				</div>
 			</div>
 		</div>
-		
+
 			  <div class="grid-item ">
 				  <div class="logoHolder">	
 				  <a href="{{ .company_website }}" target="_blank" class="noUnderline">
